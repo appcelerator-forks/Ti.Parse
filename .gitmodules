@@ -1,0 +1,3 @@
+[submodule "submodules/Ti.Parse"]
+	path = submodules/Ti.Parse
+	url = git@github.com:TheRyanHickman/Ti.Parse.git

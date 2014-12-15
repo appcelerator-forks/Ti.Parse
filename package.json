@@ -1,0 +1,18 @@
+{
+    "name": "TiParse",
+    "version": "0.1.0",
+    "guid": "6f158840-9428-87ee-6833-2cfff486b241",
+    "description": "Titanium CommonJS Module for interacting with Parse.com baas",
+    "main": "index.js",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-titaniumifier": "https://github.com/balanza/grunt-titaniumifier/tarball/master",
+        "grunt-git": "https://github.com/balanza/grunt-git/tarball/master"
+    },
+    "dependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Emanuele De Cupis (@balanza)",
+    "license": "ISC"
+}
