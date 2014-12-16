@@ -31,7 +31,20 @@ module.exports = function(grunt) {
                 files: {
                     './dist': '.'
                 },
-                options: {}
+                options: {
+                    manifest: {
+                        'version': '0.1.0',
+                        'description': 'Titanium CommonJS Module for interacting with Parse.com baas',
+                        'author': 'Emanuele De Cupis (@balanza)',
+                        'license': 'ISC',
+                        'copyright': '2014 Emanuele De Cupis (@balanza)',
+                        'name': 'Ti.Parse',
+                        'moduleid': 'is.decup.tiparse',
+                        'guid': '6f158840-9428-87ee-6833-2cfff486b241',
+                        'platform': 'commonjs',
+                        'minsdk': '3.0.0'
+                    }
+                }
             }
         },
 
@@ -65,7 +78,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-titaniumifier');
 
     // Default task(s).
-    grunt.registerTask('build', ['gitcheckout', 'gitpull', 'titaniumifier']);
+    grunt.registerTask('bundle', ['gitcheckout', 'gitpull', 'titaniumifier']);
 
 
     function mergeFilesFromOriginal() {

@@ -25,6 +25,6 @@ After cloning this repo, install all dependencies
 	
 then just
 
-	grunt
+	grunt bundle
 
 to update references and package the module
